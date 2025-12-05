@@ -1,0 +1,47 @@
+name: KaizenVotes
+version: '${version}'
+main: core.dev.kaizenVotesPlugin.KaizenVotesPlugin
+api-version: '1.21'
+prefix: Kaizen
+description: Systeme de vote nouvelle generation pour serveurs Minecraft
+authors: [Kaizen core team]
+website: https://kaizen.gg
+
+commands:
+  kaizen:
+    description: Commande principale de Kaizen Votes
+    usage: /<command> <link|unlink|status|reload>
+    permission: kaizen.admin
+    aliases: [kz]
+  vote:
+    description: Affiche le lien pour voter
+    usage: /<command>
+    permission: kaizen.vote
+  rewards:
+    description: Reclame tes recompenses de vote
+    usage: /<command>
+    permission: kaizen.vote
+    aliases: [reward, claim]
+  votetop:
+    description: Affiche le classement des top voteurs
+    usage: /<command> [page]
+    permission: kaizen.vote
+    aliases: [topvote, vtop]
+
+permissions:
+  kaizen.admin:
+    description: Acces aux commandes d'administration Kaizen
+    default: op
+  kaizen.vote:
+    description: Acces aux commandes de vote
+    default: true
+  kaizen.notify:
+    description: Recevoir les notifications de vote
+    default: true
+  kaizen.*:
+    description: Toutes les permissions Kaizen
+    default: op
+    children:
+      kaizen.admin: true
+      kaizen.vote: true
+      kaizen.notify: true

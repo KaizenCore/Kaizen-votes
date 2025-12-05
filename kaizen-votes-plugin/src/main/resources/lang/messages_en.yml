@@ -1,0 +1,41 @@
+# ===========================================
+#        Kaizen Votes - English Messages
+# ===========================================
+
+prefix: "&8[&6Kaizen&8] &r"
+
+# Vote messages
+vote-reminder: "&eYou can vote for the server! Type &b/vote"
+vote-received: "&a{player} &7voted for the server! &eThank you!"
+vote-link: "&7Vote for us at: &b{link}"
+
+# Reward messages
+reward-claimed: "&aYou have received your vote rewards!"
+no-pending-rewards: "&7You have no pending rewards."
+
+# Leaderboard messages
+leaderboard-header: "&6=== Top Voters ==="
+leaderboard-entry: "&e#{position} &f{player} &7- &a{votes} votes"
+leaderboard-footer: "&6==================="
+leaderboard-empty: "&7No votes yet this month."
+
+# Connection messages
+not-linked: "&cThe server is not yet connected to Kaizen."
+linking-code: "&7Enter this code on &bkaizen.gg/link&7: &a{code}"
+linking-url: "&7Or click this link: &b{url}"
+link-success: "&aServer connected successfully!"
+link-expired: "&cThe link code has expired. Type /kaizen link to generate a new one."
+already-linked: "&eThe server is already connected. Use /kaizen unlink to disconnect."
+unlinked: "&aServer disconnected from Kaizen."
+connection-error: "&cConnection error to Kaizen server. Please try again later."
+
+# Command interface
+vote-header: "VOTE FOR US"
+vote-click-to-vote: "[CLICK TO VOTE]"
+vote-click-hover: "Open voting link"
+vote-thank-you: "Thank you for your support!"
+
+# Streak messages
+streak-notification: "&6You have a voting streak of &e{streak} days&6!"
+streak-lost: "&cYou lost your voting streak!"
+streak-maintained: "&aYou maintained your streak! Keep voting daily!"

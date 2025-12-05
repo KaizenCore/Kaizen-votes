@@ -1,0 +1,58 @@
+# ===========================================
+#        Kaizen Votes Configuration
+# ===========================================
+
+# Language setting
+# Available: en (English), fr (French)
+language: "fr"
+
+# Backend API Configuration
+# Mode developpement: localhost:8000
+# Production: https://api.kaizen.gg
+api:
+  base-url: "http://localhost:8080"
+  # WebSocket pour recevoir les votes en temps reel (optionnel)
+  # Si desactive, le plugin utilise le polling API
+  websocket-enabled: false
+  websocket-url: ""
+
+# Token d'authentification
+# Ces valeurs sont generees automatiquement via /kaizen link
+# NE PAS MODIFIER MANUELLEMENT
+auth:
+  server-token: ""
+  server-id: ""
+
+# Parametres du serveur
+server:
+  # Nom affiche sur la server list (peut etre modifie via le dashboard)
+  name: "Mon Serveur Minecraft"
+
+# Configuration des recompenses
+rewards:
+  # Activer/desactiver les recompenses de vote
+  enabled: true
+  # Annoncer les votes dans le chat
+  broadcast-votes: true
+  # Delai avant expiration des recompenses non reclamees (en jours, 0 = jamais)
+  expiration-days: 30
+
+# Synchronisation des statistiques
+stats:
+  # Activer l'envoi des stats au backend
+  enabled: true
+  # Intervalle de synchronisation en secondes
+  sync-interval: 60
+
+# Rappels de vote
+reminders:
+  # Activer les rappels de vote
+  enabled: true
+  # Rappeler au joueur quand il rejoint le serveur
+  on-join: true
+  # Delai avant d'afficher le rappel (en secondes)
+  join-delay: 5
+
+# Messages are now in separate language files
+# See: plugins/KaizenVotes/lang/messages_en.yml and messages_fr.yml
+# You can customize messages by editing those files

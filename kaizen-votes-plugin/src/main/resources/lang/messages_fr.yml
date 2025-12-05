@@ -1,0 +1,41 @@
+# ===========================================
+#        Kaizen Votes - Messages Français
+# ===========================================
+
+prefix: "&8[&6Kaizen&8] &r"
+
+# Messages de vote
+vote-reminder: "&eTu peux voter pour le serveur! Tape &b/vote"
+vote-received: "&a{player} &7a vote pour le serveur! &eMerci!"
+vote-link: "&7Vote pour nous sur: &b{link}"
+
+# Messages de recompenses
+reward-claimed: "&aTu as recu tes recompenses de vote!"
+no-pending-rewards: "&7Tu n'as pas de recompenses en attente."
+
+# Messages du classement
+leaderboard-header: "&6=== Top Voteurs ==="
+leaderboard-entry: "&e#{position} &f{player} &7- &a{votes} votes"
+leaderboard-footer: "&6==================="
+leaderboard-empty: "&7Aucun vote ce mois-ci."
+
+# Messages de connexion
+not-linked: "&cLe serveur n'est pas encore connecte a Kaizen."
+linking-code: "&7Entre ce code sur &bkaizen.gg/link&7: &a{code}"
+linking-url: "&7Ou clique sur ce lien: &b{url}"
+link-success: "&aServeur connecte avec succes!"
+link-expired: "&cLe code de liaison a expire. Tape /kaizen link pour en generer un nouveau."
+already-linked: "&eLe serveur est deja connecte. Utilise /kaizen unlink pour te deconnecter."
+unlinked: "&aServeur deconnecte de Kaizen."
+connection-error: "&cErreur de connexion au serveur Kaizen. Reessaie plus tard."
+
+# Interface de commande
+vote-header: "VOTER POUR NOUS"
+vote-click-to-vote: "[CLIQUER POUR VOTER]"
+vote-click-hover: "Ouvrir le lien de vote"
+vote-thank-you: "Merci pour ton soutien!"
+
+# Messages de serie
+streak-notification: "&6Tu as une serie de votes de &e{streak} jours&6!"
+streak-lost: "&cTu as perdu ta serie de votes!"
+streak-maintained: "&aTu as maintenu ta serie! Continue a voter chaque jour!"

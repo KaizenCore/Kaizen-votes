@@ -1,0 +1,122 @@
+{
+    "common": {
+        "welcome": "Bienvenue",
+        "home": "Accueil",
+        "dashboard": "Tableau de bord",
+        "settings": "Paramètres",
+        "profile": "Profil",
+        "logout": "Déconnexion",
+        "login": "Connexion",
+        "register": "S'inscrire",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "create": "Créer",
+        "back": "Retour",
+        "loading": "Chargement...",
+        "search": "Rechercher",
+        "submit": "Envoyer",
+        "close": "Fermer",
+        "or": "ou"
+    },
+    "nav": {
+        "servers": "Serveurs",
+        "myServers": "Mes Serveurs",
+        "browseServers": "Parcourir les serveurs",
+        "addServer": "Ajouter un serveur"
+    },
+    "server": {
+        "title": "Serveur",
+        "name": "Nom du serveur",
+        "ip": "IP du serveur",
+        "port": "Port du serveur",
+        "description": "Description",
+        "noServers": "Aucun serveur trouvé",
+        "pending": "En attente de validation",
+        "approved": "Approuvé",
+        "rejected": "Rejeté",
+        "totalVotes": "Votes totaux",
+        "monthlyVotes": "Votes du mois",
+        "players": "Joueurs en ligne",
+        "version": "Version",
+        "joinServer": "Rejoindre le serveur",
+        "copyIp": "Copier l'IP"
+    },
+    "vote": {
+        "title": "Voter",
+        "votes": "Votes",
+        "voteNow": "Voter maintenant",
+        "voteFor": "Voter pour {{server}}",
+        "success": "Vote réussi !",
+        "thankYou": "Merci d'avoir voté pour {{server}}",
+        "cooldown": "Prochain vote disponible dans {{time}}",
+        "alreadyVoted": "Vous avez déjà voté récemment",
+        "minecraftUsername": "Pseudo Minecraft",
+        "enterUsername": "Entrez votre pseudo Minecraft",
+        "backToServer": "Retour au serveur",
+        "browseMore": "Parcourir plus de serveurs",
+        "voteDetails": "Détails du vote",
+        "player": "Joueur",
+        "time": "Heure",
+        "availableRewards": "Récompenses disponibles",
+        "canVote": "Vous pouvez voter !",
+        "mustWait": "Veuillez patienter avant de revoter"
+    },
+    "streak": {
+        "title": "Série",
+        "dayStreak": "Série de {{count}} jours !",
+        "day": "jour",
+        "days": "jours",
+        "info": "Votez chaque jour pour maintenir votre série !",
+        "current": "Série actuelle"
+    },
+    "leaderboard": {
+        "title": "Classement",
+        "topVoters": "Meilleurs votants",
+        "rank": "Rang",
+        "player": "Joueur",
+        "votes": "Votes",
+        "noVotesYet": "Aucun vote ce mois-ci"
+    },
+    "rewards": {
+        "title": "Récompenses",
+        "available": "Récompenses disponibles",
+        "earned": "Récompenses gagnées",
+        "claim": "Rejoignez le serveur pour récupérer vos récompenses !",
+        "chance": "{{percent}}% de chance",
+        "minVotes": "Nécessite {{count}} votes",
+        "guaranteed": "Garanti",
+        "manage": "Gérer les récompenses",
+        "noRewards": "Aucune récompense configurée"
+    },
+    "time": {
+        "hours": "heures",
+        "minutes": "minutes",
+        "seconds": "secondes",
+        "hour": "heure",
+        "minute": "minute",
+        "second": "seconde"
+    },
+    "auth": {
+        "email": "Email",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe",
+        "rememberMe": "Se souvenir de moi",
+        "forgotPassword": "Mot de passe oublié ?",
+        "alreadyRegistered": "Déjà inscrit ?",
+        "noAccount": "Pas encore de compte ?"
+    },
+    "error": {
+        "title": "Erreur",
+        "notFound": "Non trouvé",
+        "unauthorized": "Non autorisé",
+        "serverError": "Erreur serveur",
+        "somethingWrong": "Une erreur s'est produite"
+    },
+    "language": {
+        "title": "Langue",
+        "en": "Anglais",
+        "fr": "Français"
+    }
+}
